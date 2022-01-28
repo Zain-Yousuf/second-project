@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './App.vue'
+import zain from './components/zain.vue';
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  render: h => h(zain),
 }).$mount('#app')
